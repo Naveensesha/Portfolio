@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naveen_Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a10c69eee9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/Portfolio1.jpeg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>Hello World!</h1>
+                <p>Welcome to my portfolio website!</p>
+                <h2>Hi, I'm <span>Naveen</span> <br><div class="id">(Java Developer)</div></h2>
+            </div>
+        </div>
+    </div>
+    <!-- ------------------about---------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/header.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <div class="para">Passionate M.C.A Student | JAVA & SQL | Actively Seeking Full - Time Job Opportunities.</p>
+                        <p>I have applied my knowledge to real-world projects, notably developing a web application named Smart Study and a multiple disease prediction system utilizing machine learning. Additionally, I have developed an ATM machine project and a Tic Tac Toe game, further showcasing my ability to integrate diverse technologies and solve complex problems effectively.</div>
+                    
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>JAVA</span><br></li>
+                            <li ><span>SQL</span><br></li>
+                            <li><span>HTML</span><br></li>
+                            <li><span>CSS</span><br></li>
+                            <li><span>Database Connection(JDBC)</span><br></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>November - 2023</span><br>Data Analytics Process Automation - AICTE.</li>
+                            <li><span>October - 2023</span><br>Web Development - Technohacks, InternPE.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2024</span><br>MCA at SRM University from Chennai,<br>CGPA : 8.81.</li>
+                            <li ><span>2021</span><br>B.Sc(cs) at Abdul Hakeem College from Vellore,<br>CGPA : 7.6.</li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!------------------ Projects---------------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-heart-pulse"></i>
+                <h2>ML Project</h2>
+                <hr>
+                <p> Project: Multiple disease Prediction <br>
+                    (January 2024 - April 2024) <br>
+                    Technology: Python, Streamlit <br>
+                    Tools: Anaconda with Spyder notebook, Google Colab <br><hr>
+                    <p> <br>Multiple disease prediction using machine learning is an innovative approach to healthcare that aims to use machine learning algorithms to accurately predict the likelihood of multiple diseases in a patient based on their medical history and other relevant factors. The goal of this approach is to enable earlier diagnosis, better treatment, and improved patient outcomes.</p>
+                    </p>
+                <a href="https://publicmdpswebapp-jvdkqtawdztzurxagx7dqt.streamlit.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i> go to the website</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-book-open"></i>
+                <h2>Web Application</h2>
+                <hr>
+                <p> Project : Smart Study <br>
+                    (October 2023 - November 2023) <br>
+                    Technology: JavaScript, Html, CSS <br>
+                    Tools: Visual Studio <br><hr>
+                    <p> <br>Smart Study is conceived as a solution that bridges the gap between classroom learning and the demands of modern society. It addresses the limitations of physical classrooms and offers a platform where education can be access at anywhere at anytime, interactive, and engaging.</p>
+                    </p>
+                <a href="https://naveensesha.github.io/smart_study/"><i class="fa-solid fa-arrow-up-right-from-square"></i> go to the website</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-cash-register"></i>
+                <h2>Self Work</h2>
+                <hr>
+                <p> Project : ATM Machine(Manipulation) <br>
+                    (May 2024 - June 2024) <br>
+                    Technology Used: Java <br>
+                    Tools: Eclipse <br>
+                    Database Connectivity: JDBC <br><hr>
+                    <p> <br>Developed an ATM mini project that includes functionalities for balance enquiry to check account balance, deposit to add funds to the account, withdraw to remove funds from the account, and mini statement to retrieve a short transaction history.</p>
+                    </p>
+                <a href="https://github.com/Naveensesha/ATM-Machine"><i class="fa-solid fa-arrow-up-right-from-square"></i> go to the github</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-chess-board"></i>
+                <h2>Self Work</h2>
+                <hr>
+                <p> Project : Tic_Tac_Toe-Game <br>
+                    (May 2024 - June 2024) <br>
+                    Technology Used: Java <br>
+                    Tools: vsCode <br><hr>
+                    <p><br>Developed a Tic Tac Toe game using Java. Implemented game logic for two players, enabling them to play in a grid-based interface. The game includes features such as detecting win conditions, checking for draws, handling already occupied places, and preventing unexpected moves.</p>
+                    </p>
+                <a href="https://github.com/Naveensesha/Tic-Tac-Toe"><i class="fa-solid fa-arrow-up-right-from-square"></i> go to the github</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--------------------------------------- contact----------------------------------- -->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>naveensesha723@gmail.com</p>
+                <p><i class="fa-solid fa-phone-volume"></i>7695866649</p>
+                <div class="Social-icons">
+                    <a href="https://www.linkedin.com/in/naveen-p-29102000ns/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/shaveen_2k?igsh=d3I4NmZna2R5dWx4"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://wa.me/7695866649"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://github.com/Naveensesha"><i class="fa-brands fa-square-github"></i></a>
+                </div>
+                <a href="images/N A V E E N.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your email" required>
+                    <textarea name="Message" rows="6" placeholder="Enter Your Message here!"></textarea>
+                    <button type="submit" class="btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright <i class="fa-regular fa-copyright"></i> 2024,  Naveen.</p>
+    </div>
+</div>
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbylvt5Ss1dzm390_WPW2KPSeMqGxqfgI_guXfAOaDX4E3PcBf_jhH6A7CcUhyEPmG1rzQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg");
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully!"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },2000)
+            form.reset()
+
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
